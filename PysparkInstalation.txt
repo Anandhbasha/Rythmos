@@ -1,0 +1,30 @@
+Install JDK version 11 (https://adoptium.net/temurin/releases/?utm_source=chatgpt.com&version=11&os=any&arch=any)
+python preffered version 3.9 (https://www.python.org/downloads/)
+spark-shell (https://spark.apache.org/downloads.html)
+pip install pyspark (same as spark version)
+winutils (https://github.com/steveloughran/winutils/blob/master/hadoop-3.0.0/bin/winutils.exe)
+
+create a folder in C drive c:\hadoop
+
+add environment varible
+
+Variable Name is SPARK_HOME
+value is C:\spark\spark-3.5.6-bin-hadoop3 (Spark Path)
+
+
+variableName:JAVA_HOME
+value:C:\Program Files\Java\jdk-17 (add jdk path):
+
+variableName:HADOOP_HOME
+value:C:\Hadoop
+
+
+
+Add path::
+
+C:\Users\Admin\AppData\Local\Programs\Python\Python310\Scripts\
+C:\Users\Admin\AppData\Local\Programs\Python\Python310\
+C:\Users\Admin\AppData\Local\Programs\Python\Launcher\
+%SPARK_HOME%\bin
+%HADOOP_HOME%\bin
+%JAVA_HOME%\bin
